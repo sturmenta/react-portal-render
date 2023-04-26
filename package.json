@@ -1,0 +1,22 @@
+{
+  "name": "react-portal-render",
+  "version": "1.0.0",
+  "description": "a react portal to render whatever you want",
+  "main": "./lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sturmenta/PortalRender.git"
+  },
+  "scripts": {},
+  "keywords": [
+    "react",
+    "react-native",
+    "portal",
+    "toast",
+    "modal",
+    "popover",
+    "tooltip"
+  ],
+  "author": "Nicolas Sturm <sturmenta@gmail.com>",
+  "license": "MIT"
+}
