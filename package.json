@@ -3,13 +3,13 @@
   "version": "1.0.0",
   "description": "a react portal to render whatever you want",
   "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "files": [
+    "/lib"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sturmenta/PortalRender.git"
-  },
-  "scripts": {
-    "build": "rm -rf ./lib && tsc",
-    "prepare": "yarn build"
   },
   "keywords": [
     "react",
@@ -20,13 +20,17 @@
     "popover",
     "tooltip"
   ],
+  "scripts": {
+    "prepare": "yarn build",
+    "build": "rm -rf ./lib && tsc"
+  },
   "author": "Nicolas Sturm <sturmenta@gmail.com>",
   "license": "MIT",
-  "peerDependencies": {
-    "react": "*"
-  },
   "devDependencies": {
     "@types/react": "^18.2.0",
     "typescript": "^5.0.4"
+  },
+  "peerDependencies": {
+    "react": "*"
   }
 }
