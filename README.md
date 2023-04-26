@@ -1,5 +1,5 @@
 # PortalRender
-a portal to render whatever you want
+a react portal to render whatever you want
 
 # Usage
 
