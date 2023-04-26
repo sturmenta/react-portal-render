@@ -1,1 +1,2 @@
-export * from './PortalRender';
+export * from "./src/PortalRender";
+export * from "./src/types";
